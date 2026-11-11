@@ -34,7 +34,7 @@ My portfolio has four main pages:
 1. Download or clone this repository from GitHub.
 2. Open the project folder in Visual Studio Code.
 3. Open the terminal and run npm install to install the required packages.
-4. Run npm start to start the website.
+4. Run npm start or npm.cmd start to start the website.
 5. Open http://localhost:3000 in your browser to view the portfolio.
 
 ## GitHub Repository
