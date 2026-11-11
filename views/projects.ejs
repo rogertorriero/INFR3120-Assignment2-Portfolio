@@ -1,9 +1,82 @@
+
 <%- include('partials/header') %>
 <%- include('partials/main_nav') %>
 
 <main class="container mt-5 mb-5">
+
   <h1><%= title %></h1>
-  <p>Explore some of the projects I have worked on.</p>
+  <p class="mb-4">
+    Here are some of the projects I have worked on throughout
+    my studies at Ontario Tech University. Each project has
+    helped me gain practical experience and better understand
+    how the concepts I learn in class apply to real situations.
+  </p>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h5 class="card-title">
+            <i class="fa-solid fa-network-wired"></i>
+            Network Design
+          </h5>
+
+          <p class="card-text">
+            One of the main areas I have worked on throughout my program is designing and configuring computer networks using Cisco Packet Tracer. These projects involved connecting multiple devices and networks, assigning IP addresses, configuring routers and switches, and working with technologies such as VLANs and routing protocols.
+          </p>
+
+          <p class="card-text">
+            I also spent time testing connectivity between devices and troubleshooting configuration issues when something was not working properly. These projects helped me become more comfortable with network configuration and gave me a better understanding of how different parts of a network communicate.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h5 class="card-title">
+            <i class="fa-solid fa-cloud"></i>
+            Cloud Infrastructure
+          </h5>
+
+          <p class="card-text">
+            Through my cloud computing coursework, I gained hands-on experience working with Amazon Web Services (AWS), CloudFormation, and Terraform. I used these tools to create and manage cloud resources, including EC2 instances and virtual machines, while learning how infrastructure can be configured through code.
+          </p>
+
+          <p class="card-text">
+            Working on these projects helped me understand the process of setting up cloud environments and managing resources without having to configure everything manually. I also gained experience using command-line tools and troubleshooting issues during deployment.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h5 class="card-title">
+            <i class="fa-solid fa-code"></i>
+            Web Development
+          </h5>
+
+          <p class="card-text">
+            I have also worked on web development projects using HTML, CSS, and JavaScript. These projects gave me the opportunity to build websites from the ground up, design page layouts, and add interactive features that respond to user input.
+          </p>
+
+          <p class="card-text">
+            One part of web development I enjoy is being able to see my ideas turn into something that people can actually use. Working on these projects has helped me improve my programming skills, understand how different parts of a website work together, and become more comfortable finding and fixing errors in my code.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </main>
 
 <%- include('partials/footer') %>
